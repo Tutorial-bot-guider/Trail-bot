@@ -2,7 +2,7 @@
     "name": "simple-bot",
     "version": "1.0.0",
     "description": "This is a simple test and experiment bot",
-    "main": "trail-bot.js",
+    "main": "Trail-bot.js",
     "author": "Tutorial-bot-guider",
     "scripts": {
         "start": "node bot.js"
