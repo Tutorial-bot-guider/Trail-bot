@@ -9,9 +9,9 @@ bot.on('message', message =>{
     var msg = message.content;
     var prefix = "-" //The text before commands, you can put anything that you prefer
 
-    if(message.author.id != "574534091203018762" && message.channel.id === "579229567819055104"){
+    if(message.author.id != "574534091203018762" && message.channel.id === "589620018963021828"){
         if(msg.startsWith('-', 0)){
-            if(msg === prefix + "bang" && message.channel.id === "579229567819055104"){
+            if(msg === prefix + "bang" && message.channel.id === "589620018963021828"){
                 message.channel.send('BOOM!!!!!') // Sends a message to the channel, with the content
             }
             else{
